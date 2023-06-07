@@ -1,2 +1,6 @@
 #!/bin/bash
-type cp
+path=$(which ls)
+echo $path
+echo '----------'
+DIR_PATH=$(dirname $path)
+echo $DIR_PATH
